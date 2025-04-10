@@ -6,7 +6,7 @@ authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
 license = "MIT"
 packages = [
-    { include = "project_name", from = "src" }
+    { include = "pycc", from = "src" }
 ]
 
 [tool.poetry.dependencies]
