@@ -2,6 +2,8 @@ import subprocess
 import os
 import time
 
+
+
 def gcc_step(command, description):
     subprocess.run(command, check=True)
     print(f"{description}")
